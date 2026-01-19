@@ -29,7 +29,7 @@ else:
     for t in (st.session_state.tasks):
         st.write(f"{t}")
 
-#updated code
+#update code
 st.header(" Update Task")
 if st.session_state.tasks:
     index = st.selectbox("Select task index", range(len(st.session_state.tasks)))
@@ -45,7 +45,7 @@ if st.session_state.tasks:
         for t in (st.session_state.tasks):
             st.write(f"{t}")   
 
-#Delete  
+#Delete code
 st.header("Delete Task")
 if st.session_state.tasks:
     del_index = st.selectbox("Select task index to delete", range(len(st.session_state.tasks)))
