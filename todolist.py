@@ -45,7 +45,7 @@ if st.session_state.tasks:
         for t in (st.session_state.tasks):
             st.write(f"{t}")   
 
-#Delete for todolist
+#Delete  fff
 st.header("Delete Task")
 if st.session_state.tasks:
     del_index = st.selectbox("Select task index to delete", range(len(st.session_state.tasks)))
